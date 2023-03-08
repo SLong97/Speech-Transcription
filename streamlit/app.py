@@ -5,7 +5,7 @@ from streamlit_player import st_player
 
 
 url = st.text_input("Enter a video URL")
-PREDICTION_ENDPOINT = "https://speech-transcription.herokuapp.com/process_youtube_url"
+PREDICTION_ENDPOINT = "http://34.243.111.144/process_youtube_url"
 
 
 @st.cache(allow_output_mutation=True, show_spinner=False)
